@@ -21,7 +21,7 @@ function Header() {
 
             <nav className='sm:flex gap-8 sm:h-[96px] items-center bg-gray-400 bg-clip-padding backdrop-filter backdrop-blur-xl px-8 lg:px-24 bg-opacity-10 absolute top-[-400px] sm:static 2xl:pr-40'>
 
-                <NavLink to='/' className={({isActive}) => `hover:opacity-75 pb-8 translate-y-4  cursor-pointer ${isActive ? 'border-b-2' : 'hover:border-b-2'}`}>
+                <NavLink to='' className={({isActive}) => `hover:opacity-75 pb-8 translate-y-4  cursor-pointer ${isActive ? 'border-b-2' : 'hover:border-b-2'}`}>
                 <p className='text-white text-xl '><span className='font-bold mr-1 absolute top-[-400px] lg:static'>00</span> HOME</p>
                 </NavLink>
 
@@ -48,7 +48,7 @@ function Header() {
             right-0 top-0 bottom-0'>
                 <img src={closeIcon} onClick={() => setIsMenuOpened(false)} className='w-6 cursor-pointer absolute right-0 -translate-x-6 translate-y-6'/>
             <nav className='flex flex-col gap-10 px-5 mt-40'>
-                <Link to='/' onClick={() => setIsMenuOpened(false)}>
+                <Link to='' onClick={() => setIsMenuOpened(false)}>
                 <p className='text-white text-2xl'><span className='font-bold mr-3'>00</span> HOME</p>
                 </Link>
                 <Link to='destination' onClick={() => setIsMenuOpened(false)}>

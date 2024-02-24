@@ -30,9 +30,9 @@ function Technology() {
             <img src={images[activeTechnology]} className='w-full h-[300px]'/>
         </div>
         <div className='flex gap-4 lg:flex-col justify-center mt-6'>
-            <div className={`border rounded-[50%] grid place-items-center text-white border-gray-500 w-[45px] h-[45px] lg:text-xl lg:w-[60px] lg:h-[60px] hover:bg-white hover:text-black cursor-pointer ${activeTechnology === 0 ? 'bg-white text-black' : null}`} onClick={() => setActiveTechnology(0)}>1</div>
-            <div className={`border lg:text-xl rounded-[50%] grid place-items-center text-white border-gray-500 w-[45px] h-[45px] lg:w-[60px] lg:h-[60px] hover:bg-white hover:text-black cursor-pointer ${activeTechnology === 1 ? 'bg-white text-black' : null}`} onClick={() => setActiveTechnology(1)}>2</div>
-            <div className={`border lg:text-xl rounded-[50%] grid place-items-center text-white border-gray-500 w-[45px] h-[45px] lg:w-[60px] lg:h-[60px] hover:bg-white hover:text-black cursor-pointer ${activeTechnology === 2 ? 'bg-white text-black' : null}`} onClick={() => setActiveTechnology(2)}>3</div>
+            <div className={`border rounded-[50%] grid place-items-center border-gray-500 w-[45px] h-[45px] lg:text-xl lg:w-[60px] lg:h-[60px] hover:bg-white hover:text-black cursor-pointer ${activeTechnology === 0 ? 'bg-white text-black' : 'text-white'}`} onClick={() => setActiveTechnology(0)}>1</div>
+            <div className={`border lg:text-xl rounded-[50%] grid place-items-center border-gray-500 w-[45px] h-[45px] lg:w-[60px] lg:h-[60px] hover:bg-white hover:text-black cursor-pointer ${activeTechnology === 1 ? 'bg-white text-black' : 'text-white'}`} onClick={() => setActiveTechnology(1)}>2</div>
+            <div className={`border lg:text-xl rounded-[50%] grid place-items-center border-gray-500 w-[45px] h-[45px] lg:w-[60px] lg:h-[60px] hover:bg-white hover:text-black cursor-pointer ${activeTechnology === 2 ? 'bg-white text-black' : 'text-white'}`} onClick={() => setActiveTechnology(2)}>3</div>
         </div>
         <div className='mt-6 text-center lg:text-start px-[5%] md:px-[10%] lg:px-0 flex flex-col gap-4'>
             <p className='text-gray-500 text-lg font-semibold lg:text-2xl'>THE TERMINOLOGY...</p>

@@ -41,7 +41,7 @@ function Home() {
   outer space and not hover kind of on the edge of it. Well sit back, and relax 
   because we’ll give you a truly out of this world experience!</p>
       </div>
-      <Link to='/destination' className='rounded-[50%] flex justify-center mt-16 items-center bg-white w-[150px] h-[150px] cursor-pointer sm:w-[200px] md:w-[250px] md:h-[250px] sm:h-[200px] lg:translate-y-4 lg:w-[300px] lg:h-[300px] hover:border-[25px] hover:border-gray-300 hover:backdrop-blur-md hover:scale-110 '>
+      <Link to='destination' className='rounded-[50%] flex justify-center mt-16 items-center bg-white w-[150px] h-[150px] cursor-pointer sm:w-[200px] md:w-[250px] md:h-[250px] sm:h-[200px] lg:translate-y-4 lg:w-[300px] lg:h-[300px] hover:border-[25px] hover:border-gray-300 hover:backdrop-blur-md hover:scale-110 '>
         <p className='text-xl sm:text-2xl opacity-75'>EXPLORE</p>
       </Link>
       </div>
