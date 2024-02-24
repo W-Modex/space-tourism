@@ -10,7 +10,7 @@ import Technology from './pages/Technology/Technology.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path='/' element={<App />}>
+    <Route path='space-tourism/' element={<App />}>
       <Route path='' element={<Home />} />
       <Route path='destination' element={<Destination />} />
       <Route path='crew' element={<Crew />} />

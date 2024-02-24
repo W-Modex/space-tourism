@@ -21,19 +21,19 @@ function Header() {
 
             <nav className='sm:flex gap-8 sm:h-[96px] items-center bg-gray-400 bg-clip-padding backdrop-filter backdrop-blur-xl px-8 lg:px-24 bg-opacity-10 absolute top-[-400px] sm:static 2xl:pr-40'>
 
-                <NavLink to='' className={({isActive}) => `hover:opacity-75 pb-8 translate-y-4  cursor-pointer ${isActive ? 'border-b-2' : 'hover:border-b-2'}`}>
+                <NavLink to='./' end className={({isActive}) => `hover:opacity-75 pb-8 translate-y-4  cursor-pointer ${isActive ? 'border-b-2' : 'hover:border-b-2'}`}>
                 <p className='text-white text-xl '><span className='font-bold mr-1 absolute top-[-400px] lg:static'>00</span> HOME</p>
                 </NavLink>
 
-                <NavLink to='destination' className={({isActive}) => `hover:opacity-75 pb-8 translate-y-4  cursor-pointer ${isActive ? 'border-b-2' : 'hover:border-b-2'}`}>
+                <NavLink to='./destination' className={({isActive}) => `hover:opacity-75 pb-8 translate-y-4  cursor-pointer ${isActive ? 'border-b-2' : 'hover:border-b-2'}`}>
                 <p className='text-white text-xl '><span className='font-bold mr-1 absolute top-[-400px] lg:static'>01</span> DESTINATION</p>
                 </NavLink>
 
-                <NavLink to='crew' className={({isActive}) => `hover:opacity-75 pb-8 translate-y-4  cursor-pointer ${isActive ? 'border-b-2' : 'hover:border-b-2'}`}>
+                <NavLink to='./crew' className={({isActive}) => `hover:opacity-75 pb-8 translate-y-4  cursor-pointer ${isActive ? 'border-b-2' : 'hover:border-b-2'}`}>
                 <p className='text-white text-xl '><span className='font-bold mr-1 absolute top-[-400px] lg:static'>02</span> CREW</p>
                 </NavLink>
 
-                <NavLink to='technology' className={({isActive}) => `hover:opacity-75 pb-8 translate-y-4  cursor-pointer ${isActive ? 'border-b-2' : 'hover:border-b-2'}`}>
+                <NavLink to='./technology' className={({isActive}) => `hover:opacity-75 pb-8 translate-y-4  cursor-pointer ${isActive ? 'border-b-2' : 'hover:border-b-2'}`}>
                 <p className='text-white text-xl '><span className='font-bold mr-1 absolute top-[-400px] lg:static'>03</span> TECHNOLOGY</p>
                 </NavLink>
 
@@ -51,13 +51,13 @@ function Header() {
                 <Link to='' onClick={() => setIsMenuOpened(false)}>
                 <p className='text-white text-2xl'><span className='font-bold mr-3'>00</span> HOME</p>
                 </Link>
-                <Link to='destination' onClick={() => setIsMenuOpened(false)}>
+                <Link to='./destination' onClick={() => setIsMenuOpened(false)}>
                 <p className='text-white text-2xl'><span className='font-bold mr-3'>01</span> DESTINATION</p>
                 </Link>
-                <Link to='crew' onClick={() => setIsMenuOpened(false)}>
+                <Link to='./crew' onClick={() => setIsMenuOpened(false)}>
                 <p className='text-white text-2xl'><span className='font-bold mr-3'>02</span> CREW</p>
                 </Link>
-                <Link to='technology' onClick={() => setIsMenuOpened(false)}>
+                <Link to='./technology' onClick={() => setIsMenuOpened(false)}>
                 <p className='text-white text-2xl'><span className='font-bold mr-3'>03</span> TECHNOLOGY</p>
                 </Link>
             </nav>
